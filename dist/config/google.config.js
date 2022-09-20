@@ -7,7 +7,7 @@ exports.getDriveService = void 0;
 const googleapis_1 = require("googleapis");
 const path_1 = __importDefault(require("path"));
 const getDriveService = () => {
-    const KEYFILEPATH = path_1.default.join(__dirname, "../../secret/store-to-drive-b1074f824107.json");
+    const KEYFILEPATH = path_1.default.join(__dirname, "../../secret/video-response-990d30e2fa59.json");
     //   console.log(KEYFILEPATH);
     const SCOPES = ["https://www.googleapis.com/auth/drive"];
     const auth = new googleapis_1.google.auth.GoogleAuth({

@@ -27,7 +27,7 @@ const uploadSingleFile = async (
   filePath: string,
   mimeType: string
 ) => {
-  const folderId = "1jazhDe8Y4S0uQ6gCxpxhvz6N-lGnxIE6";
+  const folderId = "1wLt_qMCVTo_5XoweLtn-yWgNaXo3J-6G";
   const { data } = await getDriveService().files.create({
     media: {
       mimeType: mimeType,

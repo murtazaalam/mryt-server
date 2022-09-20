@@ -25,7 +25,7 @@ let storage = multer_1.default.diskStorage({
 });
 const uploader = (0, multer_1.default)({ storage: storage });
 const uploadSingleFile = async (fileName, filePath, mimeType) => {
-    const folderId = "1jazhDe8Y4S0uQ6gCxpxhvz6N-lGnxIE6";
+    const folderId = "1wLt_qMCVTo_5XoweLtn-yWgNaXo3J-6G";
     const { data } = await (0, google_config_1.getDriveService)().files.create({
         media: {
             mimeType: mimeType,
